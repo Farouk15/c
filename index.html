@@ -12,8 +12,10 @@
 <body onload="getLocation()">
     <iframe src="https://giphy.com/embed/Y2jqxdgfQfnIEdc7kj" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </body>
+<p id="demo"></p>
 
 <script>
+var x = document.getElementById("demo");
 
 function getLocation() {
   if (navigator.geolocation) {
